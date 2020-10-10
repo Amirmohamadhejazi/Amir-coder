@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 14/08/2018 11:11
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-rgb:before { content: "\f100"; }
+.flaticon-002-pantone:before { content: "\f101"; }
+.flaticon-003-paint-brush:before { content: "\f102"; }
+.flaticon-004-highlighter:before { content: "\f103"; }
+.flaticon-005-canvas:before { content: "\f104"; }
+.flaticon-006-watercolor:before { content: "\f105"; }
+.flaticon-007-camera-roll:before { content: "\f106"; }
+.flaticon-008-scissors:before { content: "\f107"; }
+.flaticon-009-eye:before { content: "\f108"; }
+.flaticon-010-paint-roller:before { content: "\f109"; }
+.flaticon-011-cd:before { content: "\f10a"; }
+.flaticon-012-protractor:before { content: "\f10b"; }
+.flaticon-013-pipette:before { content: "\f10c"; }
+.flaticon-014-pencil-case:before { content: "\f10d"; }
+.flaticon-015-art-book:before { content: "\f10e"; }
+.flaticon-016-fountain-pen:before { content: "\f10f"; }
+.flaticon-017-stapler-remover:before { content: "\f110"; }
+.flaticon-018-pencil-box:before { content: "\f111"; }
+.flaticon-019-frames:before { content: "\f112"; }
+.flaticon-020-paint-palette:before { content: "\f113"; }
+.flaticon-021-piano:before { content: "\f114"; }
+.flaticon-022-eraser:before { content: "\f115"; }
+.flaticon-023-theater-masks:before { content: "\f116"; }
+.flaticon-024-vase:before { content: "\f117"; }
+.flaticon-025-drawing-tablet:before { content: "\f118"; }
+.flaticon-026-painter:before { content: "\f119"; }
+.flaticon-027-pencil:before { content: "\f11a"; }
+.flaticon-028-tea-cup:before { content: "\f11b"; }
+.flaticon-029-harp:before { content: "\f11c"; }
+.flaticon-030-ink:before { content: "\f11d"; }
+.flaticon-031-director-chair:before { content: "\f11e"; }
+.flaticon-032-column:before { content: "\f11f"; }
+.flaticon-033-sharpener:before { content: "\f120"; }
+.flaticon-034-video-camera:before { content: "\f121"; }
+.flaticon-035-oil-paint:before { content: "\f122"; }
+.flaticon-036-paper-roll:before { content: "\f123"; }
+.flaticon-037-spotlight:before { content: "\f124"; }
+.flaticon-038-origami:before { content: "\f125"; }
+.flaticon-039-paint-scraper:before { content: "\f126"; }
+.flaticon-040-printer:before { content: "\f127"; }
+.flaticon-041-computer:before { content: "\f128"; }
+.flaticon-042-cutter:before { content: "\f129"; }
+.flaticon-043-3d:before { content: "\f12a"; }
+.flaticon-044-mouse:before { content: "\f12b"; }
+.flaticon-045-hand:before { content: "\f12c"; }
+.flaticon-046-sketchbook:before { content: "\f12d"; }
+.flaticon-047-paint-bucket:before { content: "\f12e"; }
+.flaticon-048-spray:before { content: "\f12f"; }
+.flaticon-049-photo-camera:before { content: "\f130"; }
+.flaticon-050-paint-brush-1:before { content: "\f131"; }
+    
+    $font-Flaticon-001-rgb: "\f100";
+    $font-Flaticon-002-pantone: "\f101";
+    $font-Flaticon-003-paint-brush: "\f102";
+    $font-Flaticon-004-highlighter: "\f103";
+    $font-Flaticon-005-canvas: "\f104";
+    $font-Flaticon-006-watercolor: "\f105";
+    $font-Flaticon-007-camera-roll: "\f106";
+    $font-Flaticon-008-scissors: "\f107";
+    $font-Flaticon-009-eye: "\f108";
+    $font-Flaticon-010-paint-roller: "\f109";
+    $font-Flaticon-011-cd: "\f10a";
+    $font-Flaticon-012-protractor: "\f10b";
+    $font-Flaticon-013-pipette: "\f10c";
+    $font-Flaticon-014-pencil-case: "\f10d";
+    $font-Flaticon-015-art-book: "\f10e";
+    $font-Flaticon-016-fountain-pen: "\f10f";
+    $font-Flaticon-017-stapler-remover: "\f110";
+    $font-Flaticon-018-pencil-box: "\f111";
+    $font-Flaticon-019-frames: "\f112";
+    $font-Flaticon-020-paint-palette: "\f113";
+    $font-Flaticon-021-piano: "\f114";
+    $font-Flaticon-022-eraser: "\f115";
+    $font-Flaticon-023-theater-masks: "\f116";
+    $font-Flaticon-024-vase: "\f117";
+    $font-Flaticon-025-drawing-tablet: "\f118";
+    $font-Flaticon-026-painter: "\f119";
+    $font-Flaticon-027-pencil: "\f11a";
+    $font-Flaticon-028-tea-cup: "\f11b";
+    $font-Flaticon-029-harp: "\f11c";
+    $font-Flaticon-030-ink: "\f11d";
+    $font-Flaticon-031-director-chair: "\f11e";
+    $font-Flaticon-032-column: "\f11f";
+    $font-Flaticon-033-sharpener: "\f120";
+    $font-Flaticon-034-video-camera: "\f121";
+    $font-Flaticon-035-oil-paint: "\f122";
+    $font-Flaticon-036-paper-roll: "\f123";
+    $font-Flaticon-037-spotlight: "\f124";
+    $font-Flaticon-038-origami: "\f125";
+    $font-Flaticon-039-paint-scraper: "\f126";
+    $font-Flaticon-040-printer: "\f127";
+    $font-Flaticon-041-computer: "\f128";
+    $font-Flaticon-042-cutter: "\f129";
+    $font-Flaticon-043-3d: "\f12a";
+    $font-Flaticon-044-mouse: "\f12b";
+    $font-Flaticon-045-hand: "\f12c";
+    $font-Flaticon-046-sketchbook: "\f12d";
+    $font-Flaticon-047-paint-bucket: "\f12e";
+    $font-Flaticon-048-spray: "\f12f";
+    $font-Flaticon-049-photo-camera: "\f130";
+    $font-Flaticon-050-paint-brush-1: "\f131";

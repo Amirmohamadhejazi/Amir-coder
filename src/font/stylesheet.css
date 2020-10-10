@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBold.eot');
+    src: url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-ExtraBold.woff2') format('woff2'),
+        url('Gilroy-ExtraBold.woff') format('woff'),
+        url('Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.eot');
+    src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Regular.woff2') format('woff2'),
+        url('Gilroy-Regular.woff') format('woff'),
+        url('Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exot';
+    src: url('Exot350D.ttf');
+    src: url('Exot350D.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'AdobeGothicStd';
+    src: url('AdobeGothicStd-Bold.otf');
+    src: url('AdobeGothicStd-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

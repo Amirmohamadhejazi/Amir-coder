@@ -1,0 +1,20 @@
+.bg-navbar{
+    background-color: #1c7430;
+}
+.size-navbar{
+    height: 3vw;
+}
+@font-face {
+    font-family: AdobeGothicStd;
+    src: url("../font/AdobeGothicStd-Bold.otf")
+}
+@font-face {
+    font-family: Exot;
+    src: url("../font/Exot350D.ttf")
+}
+.AdobeGothicStd{
+    font-family: AdobeGothicStd, serif;
+}
+.Exot{
+    font-family: Exot, serif;
+}
