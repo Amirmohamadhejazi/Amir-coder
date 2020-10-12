@@ -1,9 +1,4 @@
-.bg-navbar{
-    background-color: #1c7430;
-}
-.size-navbar{
-    height: 3vw;
-}
+/*****************************************    font      ***************************************/
 @font-face {
     font-family: AdobeGothicStd;
     src: url("../font/AdobeGothicStd-Bold.otf")
@@ -11,10 +6,126 @@
 @font-face {
     font-family: Exot;
     src: url("../font/Exot350D.ttf")
+}@font-face {
+    font-family: IRANSansWeb;
+    src: url("../font/IRANSans(FaNum).ttf")
 }
 .AdobeGothicStd{
     font-family: AdobeGothicStd, serif;
 }
 .Exot{
     font-family: Exot, serif;
+}
+.IRANSansWeb{
+    font-family: IRANSansWeb, serif;
+}
+
+/*****************************************    height      ***************************************/
+.h-container{
+    height: 80vw;
+}
+.h-navbar{
+    height: 3vw;
+
+}
+.h-slider{
+    height: 40vw;
+}
+/*****************************************    width      ***************************************/
+/*****************************************    back , color      ***************************************/
+.bg-container{
+    background-color: #F5F4F4	;
+}.bg-navbar{
+    background-color: transparent;
+}
+.link {
+    color: black;
+    transition: 0.2s;
+
+}.link:hover {
+     color: black;
+     transition: 0.2s;
+
+ }
+ .img1_slider{
+     background-image: url("../img/codecode1.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ } .img2_slider{
+     background-image: url("../img/codecode2.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ } .img3_slider{
+     background-image: url("../img/codecode3.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+/*****************************************    font-size      ***************************************/
+
+
+.items_nav{
+    font-size: calc(0.8vw + 0.8em);
+    color: black;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.items_nav:hover{
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 3s ease-in-out infinite;
+    background-size: 400% 100%;
+    transition: 0.2s;
+}
+@keyframes rainbow_animation {
+    0%,100% {background-position: 0 0;}
+    50% {background-position: 100% 0;}
+}
+/*-----------zir text underline-----------*/
+.underline {
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+.underline:after {
+
+    content: "";
+    display: block;
+    height: calc(0.1vw + 0.1em);
+    bottom: -5%;
+    left: 50%;
+    border-radius:  calc(0.5vw + 0.5em);
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.underline:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/*****************************************    width      ***************************************/
+/*****************************************    align justify flex      ***************************************/
+.react-multi-carousel-dot-list {
+    justify-content: end;
+}
+.react-multi-carousel-dot button {
+    color: red;
+}
+.react-multi-carousel-dot button {
+    border-color: #767676;
+    margin-right: calc(0.4vw + 0.3em);
+
+}
+.react-multi-carousel-dot--active button {
+    background: #0056b3;
+
+}
+.react-multi-carousel-dot-list{
+    /*left: 1%;*/
+
+    bottom: 1%;
 }
