@@ -34,7 +34,7 @@
 /*****************************************    width      ***************************************/
 /*****************************************    back , color      ***************************************/
 .bg-container{
-    background-color: black	;
+    background-color: #F5F4F4	;
 }
 
 .bg-navbar {
@@ -173,51 +173,25 @@
 
 /*phone*/
 
-@media only screen and (max-width: 250px) and (min-width: 100px) {
-    .bg-container{
-        background-color: blanchedalmond	;
-    }
+@media only screen and (max-width: 450px) {
+    /*.bg-container{*/
+    /*    background-color: blanchedalmond	;*/
+    /*}*/
     /*****************************************    height      ***************************************/
     .h-container{
-        height: 80vw;
-    }
-    .h-navbar{
-        height: 3vw;
-
-    }
-    .h-slider{
-        height: 45vw;
-    }
-    /*****************************************    width      ***************************************/
-    .w-nav{
-        width: calc(20vw + 18em);
-    }
-    /*****************************************    font-size      ***************************************/
-
-    /*****************************************    padding margin      ***************************************/
-    .pr-nav{
-        padding-right: calc(2vw + 2em);;
-    }
-
-
-}
-@media only screen and (max-width: 766px) and (min-width: 250px) {
-    .bg-container{
-        background-color: purple	;
-    }
-    /*****************************************    height      ***************************************/
-    .h-container{
-        height: 80vw;
+        height: 90vw;
     }
     .h-navbar {
-        height: 7vw;
+        height: 8vw;
     }
-    .h-slider{
-        height: calc(20vw + 18em);
-
+    .h-slider {
+        height: calc(28vw + 28em);
     }
-    .h-text_slider{
-        height:  calc(16vw + 17em);
+    .h-img-slider{
+        height:calc(19vw + 18em);
+    }
+    .h-text_slider {
+        height: calc(7vw + 7em);
     }
 
     /*****************************************    width      ***************************************/
@@ -225,7 +199,89 @@
         width: calc(10vw + 12em);
     }
     .w-text_slider {
+        width: calc(13vw + 12em);
+    }
+
+    .w-l-slider{
+        width: 100%;
+    }
+    .w-r-slider{
+        width: 100%;
+    }
+    /*div{*/
+    /*    padding: 0!important;*/
+    /*}*/
+    /*****************************************    height      ***************************************/
+
+
+
+
+    /*****************************************    bg     ***************************************/
+    .img1_slider, .img2_slider, .img3_slider {
+        background-size: 70% 70%;
+    }
+    /*****************************************    font-size      ***************************************/
+    .fs-t-slider {
+        font-size: calc(0.9vw + 0.7em);
+    }
+    .fs-slider {
+        font-size: calc(0.7vw + 0.5em);
+
+    }
+
+    /*****************************************    padding margin      ***************************************/
+    .pr-nav {
+        padding-right: calc(0.5vw + 0.5em);
+    }
+
+    /*.text-sm-slider-center {*/
+    /*    text-align: center;*/
+    /*}*/
+    .text-align-slider {
+        text-align: center;
+    }
+
+    .align-sm-center {
+        /*w-100 h-100 d-flex justify-content-center*/
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 766px) and (min-width: 450px) {
+    /*.bg-container{*/
+    /*    background-color: purple	;*/
+    /*}*/
+    /*****************************************    height      ***************************************/
+    .h-container{
+        height: 90vw;
+    }
+    .h-navbar {
+        height: 7vw;
+    }
+    .h-slider{
+        height: calc(23vw + 21em);
+    }
+    .h-text_slider{
+        height:  calc(16vw + 17em);
+    }
+    .h-img-slider{
+        height: 100%;
+    }
+    /*****************************************    width      ***************************************/
+    .w-nav {
+        width: calc(10vw + 12em);
+    }
+    .w-text_slider {
         width: calc(13vw + 7em);
+    }
+    .w-l-slider{
+        width: 60%;
+    }
+    .w-r-slider{
+        width: 40%;
     }
     /*****************************************    height      ***************************************/
 
@@ -248,7 +304,9 @@
         padding-right: calc(0.5vw + 0.5em);
     }
 
-
+    .text-align-slider{
+        text-align: right;
+    }
 }
 
 
@@ -259,24 +317,29 @@
 /*tablet*/
 @media screen and (max-width: 1024px) and (min-width: 766px)   {
 
-    .bg-container{
-        background-color: green	;
-    }
+    /*.bg-container{*/
+    /*    background-color: green	;*/
+    /*}*/
     /*****************************************    height      ***************************************/
     .h-container{
-        height: 80vw;
+        height: 90vw;
     }
     .h-navbar{
         height: 3vw;
 
     }
     .h-slider{
-        height: 45vw;
+        height: calc(23vw + 21em);
     }
     .h-text_slider{
         height:  calc(16vw + 17em);
     }
-
+    .h-img-slider{
+        height: 100%;
+    }
+    .img1_slider, .img2_slider, .img3_slider {
+        background-size: 100% 76%;
+    }
     /*****************************************    width      ***************************************/
     .w-nav{
         width: calc(20vw + 18em);
@@ -284,11 +347,20 @@
     .w-text_slider {
         width: calc(15vw + 12em);
     }
+    .w-l-slider{
+        width: 56%;
+    }
+    .w-r-slider{
+        width: 44%;
+    }
     /*****************************************    font-size      ***************************************/
 
     /*****************************************    padding margin      ***************************************/
     .pr-nav{
         padding-right: calc(2vw + 2em);;
+    }
+    .text-align-slider{
+        text-align: right;
     }
 }
 
@@ -297,24 +369,26 @@
 /*laptop md or pc*/
 @media only screen and (min-width: 1025px) and (max-width: 2559px)  {
 
-    .bg-container{
-        background-color: red	;
-    }
+    /*.bg-container{*/
+    /*    background-color: red	;*/
+    /*}*/
     /*****************************************    height      ***************************************/
     .h-container{
-        height: 80vw;
+        height: 90vw;
     }
     .h-navbar{
         height: 3vw;
 
     }
     .h-slider{
-        height: 45vw;
+        height: calc(23vw + 21em);
     }
-    .h-text_slider{
-        height:  calc(16vw + 17em);
+    .h-text_slider {
+        height: calc(22vw + 20em);
     }
-
+    .h-img-slider{
+        height: 100%;
+    }
     /*****************************************    width      ***************************************/
     .w-nav{
         width: calc(20vw + 18em);
@@ -322,16 +396,22 @@
     .w-text_slider {
         width: calc(15vw + 12em);
     }
+    .w-l-slider{
+        width: 60%;
+    }
+    .w-r-slider{
+        width: 40%;
+    }
     /*****************************************    font-size      ***************************************/
 
     /*****************************************    padding margin      ***************************************/
     .pr-nav{
         padding-right: calc(2vw + 2em);;
     }
+    .text-align-slider{
+        text-align: right;
+    }
 }
-
-
-
 
 
 /********************************* media resolution (768 , 1024) for-i-pad *********************************/
@@ -345,29 +425,50 @@
 /*mac*/
 @media screen and (min-width: 2559px)  {
 
-    .bg-container{
-        background-color: orange	;
-    }
+    /*.bg-container{*/
+    /*    background-color: orange	;*/
+    /*}*/
     /*****************************************    height      ***************************************/
     .h-container{
-        height: 80vw;
+        height: 90vw;
     }
     .h-navbar{
         height: 3vw;
 
     }
     .h-slider{
-        height: 45vw;
+        height: calc(23vw + 21em);
+    }
+    .h-text_slider {
+        height: calc(22vw + 22em);
+    }
+    .h-img-slider{
+        height: 100%;
+    }
+    .img1_slider, .img2_slider, .img3_slider {
+        background-size: 70% 89%;
     }
     /*****************************************    width      ***************************************/
     .w-nav{
         width: calc(20vw + 18em);
+    }
+    .w-text_slider {
+        width: calc(15vw + 12em);
+    }
+    .w-l-slider {
+        width: 70%;
+    }
+    .w-r-slider{
+        width: 30%;
     }
     /*****************************************    font-size      ***************************************/
 
     /*****************************************    padding margin      ***************************************/
     .pr-nav{
         padding-right: calc(2vw + 2em);;
+    }
+    .text-align-slider{
+        text-align: right;
     }
 }
 

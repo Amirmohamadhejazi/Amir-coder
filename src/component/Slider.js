@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Fade from 'react-reveal/Fade';
+import React from "react";
 
 
 
@@ -29,8 +30,8 @@ export default function Slider() {
             <Carousel
                 className="text-white  AdobeGothicStd"
                 itemClass="image-item"
-                // autoPlay="false"
-                // autoPlaySpeed="3000"
+                autoPlay="false"
+                autoPlaySpeed="3000"
                 infinite="false"
                 items={3}
                 responsive={responsive}
@@ -40,17 +41,23 @@ export default function Slider() {
                 <div className="col-12 p-0 h-slider ">
                         <div className="col-12 h-100 p-0" >
                             <Fade left>
-                                <div className="col-7 h-100 float-left img1_slider p-0"> </div>
+                                <div className="w-l-slider h-img-slider  float-left  img1_slider p-0 "> </div>
                              </Fade>
-                            <div className="col-5 h-text_slider text-white IRANSansWeb d-flex justify-content-center align-items-center text-justify   float-left p-0 ">
+                            <div className="w-r-slider   h-text_slider text-white IRANSansWeb d-flex justify-content-center align-items-center text-justify   float-left p-0 ">
                                 <Fade left>
-                                    <div className="w-100  text-right  ">
-                                        <div className="w-text_slider">
-                                            <span className="fs-t-slider c-t-slider">با سفارش دادن سایت خود دیده شوید</span>
+                                    <div className="w-100  text-align-slider  ">
+                                        <div className="align-sm-center">
+                                            <div className="w-text_slider">
+                                                <span className="fs-t-slider c-t-slider">با سفارش دادن سایت خود دیده شوید</span>
+                                            </div>
                                         </div>
-                                        <div className="w-text_slider ">
-                                            <span className="fs-slider line-h-slider">در جامعه امروز داشتن یک وبسایت برای شرکت سازمان ارگان دولتی دانشگاه و حتی اشخاص با تخصص های مختلف امری ضروری استروزانه میلیون ها نفر از اینترنت استفاده میکنند و به تعداد آنها روز به روز افزوده می شود</span>
+                                        <div className="align-sm-center">
+                                            <div className="w-text_slider ">
+                                                {/*<span className="fs-slider line-h-slider">در جامعه امروز داشتن یک وبسایت برای شرکت سازمان ارگان دولتی دانشگاه و حتی اشخاص با تخصص های مختلف امری ضروری استروزانه میلیون ها نفر از اینترنت استفاده میکنند و به تعداد آنها روز به روز افزوده می شود</span>*/}
+                                                <span className="fs-slider line-h-slider">در جامعه امروز داشتن یک وبسایت برای شرکت سازمان ارگان دولتی دانشگاه و حتی اشخاص با تخصص های مختلف امری ضروری است</span>
+                                            </div>
                                         </div>
+
                                     </div>
                                 </Fade>
                             </div>
@@ -59,15 +66,20 @@ export default function Slider() {
                 <div className="p-0 w-100 h-100 text-center">
                     <div className="p-0 w-100 h-100 text-center">
                         <div className="col-12 h-100 p-0" >
-                            <div className="col-7 h-100 float-left img2_slider p-0"> </div>
-                            <div className="col-5 h-text_slider    text-white IRANSansWeb d-flex justify-content-center align-items-center text-justify   float-left p-0 ">
-                                    <div className="w-100  text-right  ">
-                                        <div className="w-text_slider">
-                                            <span className="fs-t-slider c-t-slider">بی معطلی زودتر سایت خود را بزنید</span>
+                            <div className="w-l-slider h-img-slider  float-left  img2_slider p-0 "> </div>
+                            <div className="w-r-slider   h-text_slider text-white IRANSansWeb d-flex justify-content-center align-items-center text-justify   float-left p-0 ">
+                                    <div className="w-100  text-align-slider  ">
+                                        <div className="align-sm-center">
+                                            <div className="w-text_slider">
+                                                <span className="fs-t-slider c-t-slider">بی معطلی زودتر سایت خود را بزنید</span>
+                                            </div>
                                         </div>
-                                        <div className="w-text_slider ">
-                                            <span className="fs-slider line-h-slider">شما با هر کسب و کاری که دارید چه کوچک چه بزرگ می توانید ازهم اکنون برای سفارش سایت خود اقدام کنید</span>
+                                        <div className="align-sm-center">
+                                            <div className="w-text_slider ">
+                                                <span className="fs-slider line-h-slider">شما با هر کسب و کاری که دارید چه کوچک چه بزرگ می توانید ازهم اکنون برای سفارش سایت خود اقدام کنید</span>
+                                            </div>
                                         </div>
+
                                     </div>
                             </div>
                         </div>
@@ -76,16 +88,20 @@ export default function Slider() {
                 <div className="p-0 w-100 h-100 text-center">
                     <div className="p-0 w-100 h-100 text-center">
                         <div className="col-12 h-100 p-0" >
-                                <div className="col-7 h-100 float-left img3_slider p-0"> </div>
-                            <div className="col-5 h-text_slider    text-white IRANSansWeb d-flex justify-content-center align-items-center text-justify   float-left p-0 ">
-                                    <div className="w-100  text-right  ">
+                            <div className="w-l-slider h-img-slider  float-left  img3_slider p-0 "> </div>
+                            <div className="w-r-slider   h-text_slider text-white IRANSansWeb d-flex justify-content-center align-items-center text-justify   float-left p-0 ">
+                                <div className="w-100  text-align-slider  ">
+                                    <div className="align-sm-center">
                                         <div className="w-text_slider">
-                                            <span className="fs-t-slider c-t-slider">? هذینه کمی دارد سایت زدن</span>
+                                            <span className="fs-t-slider c-t-slider">? هزینه کمی دارد سایت زدن</span>
                                         </div>
+                                    </div>
+                                    <div className="align-sm-center">
                                         <div className="w-text_slider ">
                                             <span className="fs-slider line-h-slider">مردم اولین جایی که دنبال شما میگردند برروی اینترنت است اگر آنها شمارا پیدا نکنند بدون شک رقبای شما را خواهند یافت</span>
                                         </div>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
