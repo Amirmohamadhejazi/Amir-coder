@@ -1,4 +1,5 @@
 import React from "react";
+
 import Nav from "./component/Nav";
 import Home from "./component/page/Home";
 import About from "./component/page/About";
@@ -16,9 +17,11 @@ export default function App() {
             {Home}
         </div>
     );
-    return (
+
+        return (
         <Router>
             <div className="h-container bg-container IRANSansWeb">
+
                 <Nav/>
                 <Switch>
                     <Route path='/' exact component={Home}/>

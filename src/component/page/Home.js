@@ -9,6 +9,7 @@ export default function Home() {
         // </button>
         <div>
             <Slider/>
+            <p>{window.text}</p>
         </div>
     )
 }
