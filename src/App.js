@@ -5,7 +5,7 @@ import About from "./component/page/About";
 import Buy from "./component/page/Buy"
 import Work_samples from "./component/page/work_samples"
 import {Redirect, Switch, Route} from 'react-router-dom';
-import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
+
 
 // import {Route,switch} from 'react-router-dom';
 import error_page from "./component/page/error_page";
