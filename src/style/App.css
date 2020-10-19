@@ -19,11 +19,10 @@
 .IRANSansWeb{
     font-family: IRANSansWeb, serif;
 }
-
 /*!*****************************************    height      ***************************************!*/
-/*.h-container{*/
-/*    height: 80vw;*/
-/*}*/
+.h-container{
+    height: 100%;
+}
 /*.h-navbar{*/
 /*    height: 3vw;*/
 
@@ -34,26 +33,32 @@
 /*****************************************    width      ***************************************/
 /*****************************************    back , color      ***************************************/
 .bg-container{
-    background-color: #F5F4F4	;
+    background-image: url("../../src/img/bg-container.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
-
 .bg-navbar {
-    background-color: transparent;
+    background-color: #F5F4F4 ;
 }
-
+.bg-items{
+    background-color: #222222;
+}
+.bg1-service-text{
+    background-color: #282828;
+}
 .link {
     color: black;
     transition: 0.2s;
-
 }
-
+.h-footer{
+    height: 20vw;
+}
 .link:hover {
     color: black;
     transition: 0.2s;
-
 }
-
-
 .img1_slider,.img2_slider,.img3_slider {
     background-repeat: no-repeat;
     background-size: 90% 90%;
@@ -68,20 +73,18 @@
 .img1_slider {
     background-image: url("../img/mydeveloper.svg");
 }
-
 .img2_slider {
     background-image: url("../img/freelancing.png");
 }
-
 .img3_slider {
     background-image: url("../img/webpurp.png");
 }
 .c-t-slider{
     color: #f1b0b7;
+}.c-t-home{
+    color: #7035D1;
 }
 /*****************************************    font-size      ***************************************/
-
-
 .items_nav{
     font-size: calc(0.8vw + 0.8em);
     color: black;
@@ -100,18 +103,14 @@
     0%,100% {background-position: 0 0;}
     50% {background-position: 100% 0;}
 }
-.fs-slider,.fs-slider{
-    line-height: calc(1.2vw + 0.8em);
-}
-.fs-t-slider{
+.fs-t-slider,.fs-t-home{
     font-size: calc(1vw + 0.7em); ;
 }.fs-slider{
-    font-size: calc(0.5vw + 0.7em); ;
+    font-size: calc(0.5vw + 0.7em);
+     line-height: calc(1.2vw + 0.8em);
 }
 .line-h-slider{
-
     line-height: calc(1.5vw + 1.2em);
-
 }
 /*-----------zir text underline-----------*/
 .underline {
@@ -122,7 +121,6 @@
     position: relative;
 }
 .underline:after {
-
     content: "";
     display: block;
     height: calc(0.1vw + 0.1em);
@@ -138,8 +136,6 @@
     width: 100%;
     left: 0;
 }
-
-
 /*****************************************    align justify flex      ***************************************/
 .react-multi-carousel-dot-list {
     justify-content: end;
@@ -156,31 +152,16 @@
     left: 1%;
     bottom: 1%;
 }
-
-
-
 /**************************************  media resolution 1000px  **************************************/
-
-/*!*phone*!*/
-
-/*@media only screen and (max-width: 766px) {*/
-
-
-/*    .bg-container{*/
-/*        background-color: blue	;*/
-/*    }*/
-/*}*/
-
 /*phone*/
-
 @media only screen and (max-width: 450px) {
     /*.bg-container{*/
     /*    background-color: blanchedalmond	;*/
     /*}*/
     /*****************************************    height      ***************************************/
-    .h-container{
-        height: 90vw;
-    }
+    /*.h-container{*/
+    /*    height: calc(50vw + 50em);*/
+    /*}*/
     .h-navbar {
         height: 8vw;
     }
@@ -193,7 +174,12 @@
     .h-text_slider {
         height: calc(7vw + 7em);
     }
-
+    .h-item-home {
+        height: calc(7vw + 6em);
+    }
+    .h-service {
+        height: calc(11vw + 11em);
+    }
     /*****************************************    width      ***************************************/
     .w-nav {
         width: calc(10vw + 12em);
@@ -208,32 +194,51 @@
     .w-r-slider{
         width: 100%;
     }
-    /*div{*/
-    /*    padding: 0!important;*/
-    /*}*/
-    /*****************************************    height      ***************************************/
-
-
-
-
-    /*****************************************    bg     ***************************************/
+    .items_home {
+        width: 22%;
+        border-radius: calc(0.5vw + 0.4em);
+        margin-right: calc(1vw + 1em);
+        margin-left: calc(1vw + 1em);
+    }
+     /*****************************************    bg     ***************************************/
     .img1_slider, .img2_slider, .img3_slider {
         background-size: 70% 70%;
     }
+    .error-bg{
+        background-image: url("../../src/img/error.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200% 50%;
+        background-attachment: fixed;
+        background-color: black;
+        height: 100%;
+    }
     /*****************************************    font-size      ***************************************/
-    .fs-t-slider {
+    .fs-t-slider,.fs-t-home {
         font-size: calc(0.9vw + 0.7em);
     }
     .fs-slider {
         font-size: calc(0.7vw + 0.5em);
 
     }
+    .fs-t-items-home{
+        font-size: calc( 1vw + 0.9em);
+    }
+    .fs-service-text{
+        font-size: calc( 0.5vw + 0.6em);
+    }
+    /*****************************************    align justify      ***************************************/
+    .justify-home{
+        justify-content: center;
+    }
 
     /*****************************************    padding margin      ***************************************/
     .pr-nav {
         padding-right: calc(0.5vw + 0.5em);
     }
-
+    .p-text-home{
+        padding: calc(1vw + 1em);
+    }
     /*.text-sm-slider-center {*/
     /*    text-align: center;*/
     /*}*/
@@ -250,14 +255,15 @@
     }
 
 }
+
 @media only screen and (max-width: 766px) and (min-width: 450px) {
     /*.bg-container{*/
     /*    background-color: purple	;*/
     /*}*/
     /*****************************************    height      ***************************************/
-    .h-container{
-        height: 90vw;
-    }
+    /*.h-container{*/
+    /*    height: calc(50vw + 50em);*/
+    /*}*/
     .h-navbar {
         height: 7vw;
     }
@@ -269,6 +275,12 @@
     }
     .h-img-slider{
         height: 100%;
+    }
+    .h-item-home {
+        height: calc(12vw + 11em);
+    }
+    .h-service {
+        height: calc(17vw + 16em);
     }
     /*****************************************    width      ***************************************/
     .w-nav {
@@ -284,7 +296,12 @@
         width: 40%;
     }
     /*****************************************    height      ***************************************/
-
+    .items_home {
+        width: 26%;
+        border-radius: calc(0.5vw + 0.4em);
+        margin-right: calc(0.6vw + 0.2em);
+        margin-left: calc(0.6vw + 0.2em);
+    }
 
 
 
@@ -292,12 +309,31 @@
     .img1_slider, .img2_slider, .img3_slider {
         background-size: 100% 63%;
     }
+    .error-bg{
+        background-image: url("../../src/img/error.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 175% 50%;
+        background-attachment: fixed;
+        background-color: black;
+        height: 100%;
+    }
     /*****************************************    font-size      ***************************************/
-    .fs-t-slider {
+    .fs-t-slider,.fs-t-home {
         font-size: calc(0.7vw + 0.5em);
     }
     .fs-slider {
         font-size: calc(0.5vw + 0.5em);
+    }
+    .fs-t-items-home{
+        font-size: calc( 1vw + 0.9em);
+    }
+    .fs-service-text{
+        font-size: calc( 0.8vw + 0.7em);
+    }
+    /*****************************************    align justify      ***************************************/
+    .justify-home{
+        justify-content: flex-end;
     }
     /*****************************************    padding margin      ***************************************/
     .pr-nav {
@@ -307,13 +343,11 @@
     .text-align-slider{
         text-align: right;
     }
+    .p-text-home{
+        padding: calc(1vw + 1em);
+    }
 }
-
-
-
-
 /*********************************  media resolution (1024 , 1366) for-ipa-d-pro , phone *********************************/
-
 /*tablet*/
 @media screen and (max-width: 1024px) and (min-width: 766px)   {
 
@@ -321,9 +355,9 @@
     /*    background-color: green	;*/
     /*}*/
     /*****************************************    height      ***************************************/
-    .h-container{
-        height: 90vw;
-    }
+    /*.h-container {*/
+    /*    height: calc(60vw + 60em);*/
+    /*}*/
     .h-navbar{
         height: 3vw;
 
@@ -337,8 +371,31 @@
     .h-img-slider{
         height: 100%;
     }
+    .h-item-home {
+        height: calc(12vw + 11em);
+    }
+    .h-service {
+        height: calc(18vw + 17em);
+    }
+    .items_home {
+        width: 26%;
+        border-radius: calc(0.5vw + 0.4em);
+        margin-right: calc(0.6vw + 0.2em);
+        margin-left: calc(0.6vw + 0.2em);
+    }
+    /*****************************************    bg      ***************************************/
+
     .img1_slider, .img2_slider, .img3_slider {
         background-size: 100% 76%;
+    }
+    .error-bg{
+        background-image: url("../../src/img/error.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120% 50%;
+        background-attachment: fixed;
+        background-color: black;
+        height: 100%;
     }
     /*****************************************    width      ***************************************/
     .w-nav{
@@ -354,17 +411,27 @@
         width: 44%;
     }
     /*****************************************    font-size      ***************************************/
-
+    .fs-t-items-home{
+        font-size: calc( 1vw + 0.9em);
+    }
+    .fs-service-text{
+        font-size: calc( 0.8vw + 0.7em);
+    }
+    /*****************************************    align justify      ***************************************/
+    .justify-home{
+        justify-content: flex-end;
+    }
     /*****************************************    padding margin      ***************************************/
     .pr-nav{
         padding-right: calc(2vw + 2em);;
+    }
+    .p-text-home{
+        padding: calc(1.5vw + 1em);
     }
     .text-align-slider{
         text-align: right;
     }
 }
-
-
 
 /*laptop md or pc*/
 @media only screen and (min-width: 1025px) and (max-width: 2559px)  {
@@ -373,9 +440,9 @@
     /*    background-color: red	;*/
     /*}*/
     /*****************************************    height      ***************************************/
-    .h-container{
-        height: 90vw;
-    }
+    /*.h-container{*/
+    /*    height: 100%;*/
+    /*}*/
     .h-navbar{
         height: 3vw;
 
@@ -388,6 +455,12 @@
     }
     .h-img-slider{
         height: 100%;
+    }
+    .h-item-home {
+        height: calc(14vw + 13em);
+    }
+    .h-service {
+        height: calc(22vw + 21em);
     }
     /*****************************************    width      ***************************************/
     .w-nav{
@@ -402,26 +475,54 @@
     .w-r-slider{
         width: 40%;
     }
+
+    /*****************************************    bg     ***************************************/
+    .error-bg{
+        background-image: url("../../src/img/error.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 90%;
+        background-attachment: fixed;
+        background-color: black;
+        height: 100%;
+    }
+
+
+
+
     /*****************************************    font-size      ***************************************/
+    .fs-t-items-home{
+        font-size: calc( 1vw + 0.9em);
+    }
+    .fs-service-text{
+        font-size: calc( 0.8vw + 0.7em);
+    }
+    /*****************************************    align justify      ***************************************/
+    .justify-home{
+        justify-content: flex-end;
+    }
 
     /*****************************************    padding margin      ***************************************/
     .pr-nav{
-        padding-right: calc(2vw + 2em);;
+        padding-right: calc(2vw + 2em);
     }
     .text-align-slider{
         text-align: right;
     }
+    .p-text-home{
+        padding: calc(2vw + 1.5em);
+    }
+    .pr-items-home{
+
+    }
+    .items_home{
+        width: 23%;
+        border-radius: calc(0.5vw + 0.4em);
+        margin-right: calc(2vw + 2em);
+        margin-left: calc(2vw + 2em);
+    }
 }
-
-
 /********************************* media resolution (768 , 1024) for-i-pad *********************************/
-
-
-
-
-
-
-
 /*mac*/
 @media screen and (min-width: 2559px)  {
 
@@ -429,9 +530,9 @@
     /*    background-color: orange	;*/
     /*}*/
     /*****************************************    height      ***************************************/
-    .h-container{
-        height: 90vw;
-    }
+    /*.h-container{*/
+    /*    height: calc(80vw + 80em);*/
+    /*}*/
     .h-navbar{
         height: 3vw;
 
@@ -445,6 +546,20 @@
     .h-img-slider{
         height: 100%;
     }
+    .h-item-home {
+        height: calc(14vw + 13em);
+    }
+    .h-service {
+        height: calc(26vw + 26em);
+    }
+    .items_home {
+        width: 22%;
+        border-radius: calc(0.5vw + 0.4em);
+        margin-right: calc(3vw + 2em);
+        margin-left: calc(3vw + 2em);
+    }
+    /*****************************************    bg      ***************************************/
+
     .img1_slider, .img2_slider, .img3_slider {
         background-size: 70% 89%;
     }
@@ -462,18 +577,37 @@
         width: 30%;
     }
     /*****************************************    font-size      ***************************************/
-
+    .fs-t-items-home{
+        font-size: calc( 1.5vw + 1em);
+    }
+    .fs-service-text{
+        font-size: calc( 0.8vw + 0.7em);
+    }
+    /*****************************************    bg     ***************************************/
+    .error-bg{
+        background-image: url("../../src/img/error.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 90%;
+        background-attachment: fixed;
+        background-color: black;
+        height: 100%;
+    }
+    /*****************************************    align justify      ***************************************/
+    .justify-home{
+        justify-content: flex-end;
+    }
     /*****************************************    padding margin      ***************************************/
     .pr-nav{
         padding-right: calc(2vw + 2em);;
     }
+    .p-text-home{
+        padding: calc(2vw + 1.5em);
+    }
+
     .text-align-slider{
         text-align: right;
     }
+
 }
-
-
-
-
 /***************************************** End media *****************************************/
-

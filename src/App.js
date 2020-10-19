@@ -4,6 +4,7 @@ import Home from "./component/page/Home";
 import About from "./component/page/About";
 import Buy from "./component/page/Buy"
 import Work_samples from "./component/page/work_samples"
+import Footer from "./component/footer";
 import {Redirect, Switch, Route} from 'react-router-dom';
 
 
@@ -30,9 +31,10 @@ export default function App() {
                     <Route path='/about' exact component={About}/>
                     <Route path='/Buy' exact component={Buy}/>
                     <Route path='/Work_samples' exact component={Work_samples}/>
-                    {/*<Route component={} />*/}
-                    <Route component={error_page} />
+                    <Route path='/error_page' exact  component={error_page} />
+                    <Route   component={error_page} />
                 </Switch>
+                {/*<Footer/>*/}
             </div>
         </Route>
 
