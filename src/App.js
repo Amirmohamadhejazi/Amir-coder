@@ -6,13 +6,9 @@ import Buy from "./component/page/Buy"
 import Work_samples from "./component/page/work_samples"
 import Footer from "./component/footer";
 import {Redirect, Switch, Route} from 'react-router-dom';
-
-
-// import {Route,switch} from 'react-router-dom';
 import error_page from "./component/page/error_page";
 import './style/App.css';
 import './style/bootstrap.min.css';
-
 
 export default function App() {
 
@@ -35,9 +31,6 @@ export default function App() {
                 </Switch>
                 <Footer/>
             </div>
-            
         </Route>
-
-
     )
 }

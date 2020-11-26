@@ -1,10 +1,7 @@
-// import React, { useState, useEffect } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Fade from 'react-reveal/Fade';
 import React from "react";
-
-
 
 export default function Slider() {
     const responsive = {
@@ -24,7 +21,6 @@ export default function Slider() {
             paritialVisibilityGutter: 40
         }
     };
-
     return(
         <div className="img_slider h-slider">
             <Carousel
@@ -53,7 +49,6 @@ export default function Slider() {
                                         </div>
                                         <div className="align-sm-center">
                                             <div className="w-text_slider ">
-                                                {/*<span className="fs-slider line-h-slider">در جامعه امروز داشتن یک وبسایت برای شرکت سازمان ارگان دولتی دانشگاه و حتی اشخاص با تخصص های مختلف امری ضروری استروزانه میلیون ها نفر از اینترنت استفاده میکنند و به تعداد آنها روز به روز افزوده می شود</span>*/}
                                                 <span className="fs-slider line-h-slider">در جامعه امروز داشتن یک وبسایت برای شرکت سازمان ارگان دولتی دانشگاه و حتی اشخاص با تخصص های مختلف امری ضروری است</span>
                                             </div>
                                         </div>
