@@ -4,12 +4,12 @@ import {Link} from 'react-router-dom';
 
 export default function footer() {
 
-    return(
+    return (
         <div className="w-100 h-footer d-flex align-items-center justify-content-center  ">
-                <div className="w-item-footer text-center text-white fs-footer"><p>خانه</p></div>
-                <div className="w-item-footer  text-center text-white fs-footer"><p>درباره ما</p></div>
-                <div className="w-item-footer  text-center text-white fs-footer"><p>سفارش</p></div>
-                <div className="w-item-footer  text-center text-white fs-footer"><p>نمونه کار</p></div>
+            <Link to="/Home" className="w-item-footer text-center text-white fs-footer"><span>خانه</span></Link>
+            <Link to="/About" className="w-item-footer text-center text-white fs-footer"><span>درباره ما</span></Link>
+            <Link to="/Work_samples" className="w-item-footer text-center text-white fs-footer"><span>نمونه کار</span></Link>
+            <Link to="/Buy" className="w-item-footer text-center text-white fs-footer"><span>سفارش</span></Link>
         </div>
     )
 }
