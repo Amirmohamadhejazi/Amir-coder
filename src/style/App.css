@@ -19,6 +19,7 @@
 .IRANSansWeb{
     font-family: IRANSansWeb, serif;
 }
+
 /*!*****************************************    height      ***************************************!*/
 .h-container{
     height: 100%;
@@ -52,9 +53,7 @@
     color: black;
     transition: 0.2s;
 }
-.h-footer{
-    height: 20vw;
-}
+
 .link:hover {
     color: black;
     transition: 0.2s;
@@ -152,6 +151,13 @@
     left: 1%;
     bottom: 1%;
 }
+.h-footer{
+    height: 20vw;
+}
+/*.w-t-item-footer{*/
+/*    width: calc(15vw + 15em);*/
+/*}*/
+
 /**************************************  media resolution 1000px  **************************************/
 /*phone*/
 @media only screen and (max-width: 450px) {
@@ -194,6 +200,9 @@
     .w-r-slider{
         width: 100%;
     }
+    .w-item-footer{
+        width: calc(4vw + 4em);
+    }
     .items_home {
         width: 22%;
         border-radius: calc(0.5vw + 0.4em);
@@ -226,6 +235,9 @@
     }
     .fs-service-text{
         font-size: calc( 0.5vw + 0.6em);
+    }
+    .fs-footer{
+        font-size: calc(0.5vw + 0.5em);
     }
     /*****************************************    align justify      ***************************************/
     .justify-home{
@@ -295,6 +307,9 @@
     .w-r-slider{
         width: 40%;
     }
+    .w-item-footer{
+        width: calc(4vw + 4em);
+    }
     /*****************************************    height      ***************************************/
     .items_home {
         width: 26%;
@@ -330,6 +345,9 @@
     }
     .fs-service-text{
         font-size: calc( 0.8vw + 0.7em);
+    }
+    .fs-footer{
+        font-size: calc(0.8vw + 0.8em);
     }
     /*****************************************    align justify      ***************************************/
     .justify-home{
@@ -410,12 +428,18 @@
     .w-r-slider{
         width: 44%;
     }
+    .w-item-footer{
+        width: calc(5vw + 5em);
+    }
     /*****************************************    font-size      ***************************************/
     .fs-t-items-home{
         font-size: calc( 1vw + 0.9em);
     }
     .fs-service-text{
         font-size: calc( 0.8vw + 0.7em);
+    }
+    .fs-footer{
+        font-size: calc(0.8vw + 0.8em);
     }
     /*****************************************    align justify      ***************************************/
     .justify-home{
@@ -462,6 +486,8 @@
     .h-service {
         height: calc(22vw + 21em);
     }
+
+
     /*****************************************    width      ***************************************/
     .w-nav{
         width: calc(20vw + 18em);
@@ -475,7 +501,9 @@
     .w-r-slider{
         width: 40%;
     }
-
+    .w-item-footer{
+        width: calc(5vw + 5em);
+    }
     /*****************************************    bg     ***************************************/
     .error-bg{
         background-image: url("../../src/img/error.gif");
@@ -496,6 +524,9 @@
     }
     .fs-service-text{
         font-size: calc( 0.8vw + 0.7em);
+    }
+    .fs-footer{
+        font-size: calc(1vw + 1em);
     }
     /*****************************************    align justify      ***************************************/
     .justify-home{
@@ -576,12 +607,18 @@
     .w-r-slider{
         width: 30%;
     }
+    .w-item-footer{
+        width: calc(7vw + 7em);
+    }
     /*****************************************    font-size      ***************************************/
     .fs-t-items-home{
         font-size: calc( 1.5vw + 1em);
     }
     .fs-service-text{
         font-size: calc( 0.8vw + 0.7em);
+    }
+    .fs-footer{
+        font-size: calc(1vw + 1em);
     }
     /*****************************************    bg     ***************************************/
     .error-bg{

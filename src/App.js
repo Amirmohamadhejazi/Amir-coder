@@ -31,12 +31,13 @@ export default function App() {
                     <Route path='/about' exact component={About}/>
                     <Route path='/Buy' exact component={Buy}/>
                     <Route path='/Work_samples' exact component={Work_samples}/>
-                    <Route path='/error_page' exact  component={error_page} />
                     <Route   component={error_page} />
                 </Switch>
-                {/*<Footer/>*/}
+                <Footer/>
             </div>
+            
         </Route>
+
 
     )
 }
